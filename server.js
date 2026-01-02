@@ -14,3 +14,8 @@ app.use("/api/export", exportRoutes);
 app.get("/", (_, res) => res.send("Sheet Planner Pro API Running"));
 
 app.listen(5000, () => console.log("Server started"));
+
+app.get("/", (req, res) => {
+  res.send("Sheet Planner Pro API running");
+});
+

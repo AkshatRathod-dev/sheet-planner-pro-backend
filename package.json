@@ -1,0 +1,13 @@
+{
+  "name": "sheet-planner-pro-backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pdfkit": "^0.14.0",
+    "exceljs": "^4.4.0"
+  }
+}
